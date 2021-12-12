@@ -105,12 +105,12 @@ Create persistent indexes on the collection for the corresponding attributes
 
 Below are the list of APIs being used.
 
-**Books (Macrometa Docuemnt Store DB)**
+**Books (Macrometa Document Store DB)**
 
 - GET /books (ListBooks)
 - GET /books/{:id} (GetBook)
 
-**Cart (Macrometa Docuemnt Store DB)**
+**Cart (Macrometa Document Store DB)**
 
 - GET /cart (ListItemsInCart)
 - POST /cart (AddToCart)
@@ -118,12 +118,12 @@ Below are the list of APIs being used.
 - DELETE /cart (RemoveFromCart)
 - GET /cart/{:bookId} (GetCartItem)
 
-**Orders (Macrometa Docuemnt Store DB)**
+**Orders (Macrometa Document Store DB)**
 
 - GET /orders (ListOrders)
 - POST /orders (Checkout)
 
-**Best Sellers (Macrometa Docuemnt Store DB)**
+**Best Sellers (Macrometa Document Store DB)**
 
 - GET /bestsellers (GetBestSellers)
 
