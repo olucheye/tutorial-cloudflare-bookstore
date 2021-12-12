@@ -22,7 +22,7 @@ As a user of the demo, you can browse and search for books, look at recommendati
 
 ## GDN Tenant Account
 
-| **Federation**                                        | **Email**              | **Passsword** |
+| **Federation**                                        | **Email**              | **Password** |
 | ----------------------------------------------------- | ---------------------- | ------------- |
 | [Global Data Network](https://gdn.paas.macrometa.io/) | bookstore@macrometa.io | `xxxxxxxx`    |
 
@@ -56,7 +56,7 @@ This is implemented using `document collections` functionality in Macrometa GDN
 | Entity  | Collection Name | Collection Type | Comment                                    |
 | ------- | --------------- | --------------- | ------------------------------------------ |
 | Catalog | BooksTable      | document        | Collection of the available books.         |
-| Cart    | CartTable       | document        | Books customers have addded in their cart. |
+| Cart    | CartTable       | document        | Books customers have added in their cart. |
 | Orders  | OrdersTable     | document        | Past orders of a customer.                 |
 
 **Recommendations:**
@@ -405,7 +405,7 @@ curl 'https://bookstore.macrometadev.workers.dev/api/init'   -H 'authority: book
 
 This will create all the collections and dummy data for you.
 
-> Note: This will only populate if the collection or stream app is not already present. If it does it wont create the dummy data, even if the collection is empty. So best to delete the collection if you want it to be populated by the curl.
+> Note: This will only populate if the collection or stream app is not already present. If it does it won't create the dummy data, even if the collection is empty. So best to delete the collection if you want it to be populated by the curl.
 
 ### After you run the demo do the following:
 
